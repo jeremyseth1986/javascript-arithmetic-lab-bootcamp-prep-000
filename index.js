@@ -36,5 +36,7 @@ function makeInt(n) {
 makeInt('20');
 
 function preserveDecimal(n) {
-  return (parseFloat(n.float))
+  return (parseFloat(n));
 }
+
+preserveDecimal('10.333334');
